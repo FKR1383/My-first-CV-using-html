@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title> Introduction </title>
+    <link rel="stylesheet" href="style_contact-page.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald" />
+    <script src="script_contact_page.js"> </script>
+    <noscript> Your computer does'nt support Java Script </noscript>
+  </head>
+  <body>
+    <ul class="nav_bar">
+      <li onclick="int_func();"> Introduction </li>
+      <li onclick="Ski_func();"> Skills and abilities </li>
+      <li onclick="hon_func();"> Honors and achievements </li>
+      <li onclick="con_func();"> ✆ Contact with me </li>
+    </ul>
+    <div class="form">
+      Comment Form:
+      <form method="post" action="process.php">
+      <fieldset>
+        <legend> Form </legend>
+          <label for="fname"> First name: </label>
+          <input type="text" id="fname" name="fname" required><br/> <br/>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" required> <br /> <br />
+          <label for="email">Enter your email:</label>
+          <input type="email" id="email" name="email" required> <br /> <br />
+          <textarea name="message" rows="10" cols="90" placeholder="Type your comment here!" required></textarea> <br /> <br /> <br />
+          <input type="reset">
+          <input type="submit" value="Submit" onclick="return sub();">
+      </fieldset>
+    </form>
+    </div>
+      <ul class="footer">
+        <li> ☎ Contact with me: +98 910 905 2583 --- +98 938 597 5076 </li>
+        <li> 📧 Email: <a href="mailto:FarzamKoohi@gmail.com"> Ordinary mail </a> --- <a href="mailto:FarzamProgrammer@gmail.com"> Business mail </a> </li>
+        <li> <img src="Logo_telegram.webp" width="20px" height="20px" \>Telegram Id: @FKR1383 </li>
+        <li> <img src="Git.png" width="20px" height="20px" \><a href="https://github.com/FKR1383/" target="_blank"> link to my Github </li>
+        <li> <img src="quera.png" width="20px" height="20px" \><a href="https://quera.org/profile/fq9cm4" target="_blank"> link to my Quera </li>
+      </ul>
+    </div>
+  </body>
+
+</html>
